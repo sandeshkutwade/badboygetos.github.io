@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Get OS</title>
+	<link rel="stylesheet" type="text/css" href="GetOS.css">
+	 <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<header>
+	<nav>
+         <div class="row clearfix">
+		<ul class="main-nav animated slideInRight" id="check-class">
+			<li> <a href="#">Information</a></li>
+			<li> <a href="#">Windows</a></li>
+			<li> <a href="#">How To</a></li>
+			<li> <a href="#">Sign up</a></li>
+		</ul>
+		<a href="#" class="Windows-icon"  onclick="slideshow()"> <i class="fa fa-windows"></i> </a>
+	</div>
+    </nav>
+    <div class="Main-header">
+    <h1> Welcome To <span class="colormake">Get OS.</span><br> 
+    Answer OF Your All Windows.
+    </h1>
+    <a href="#" class="btn btn-right"> Click To Version</a>
+    <a href="#" class="btn btn-left"> Go To Next </a>
+</div>
+
+</header>
+<script type="text/javascript">
+	function slideshow(argument) {
+		var x = document.getElementById('check-class')
+		if (x.style.display ==="none") {
+			x.style.display ="block";
+		}else{
+			x.style.display="none";
+		}
+		// body...
+	}
+</script>
+</body>
+</html>
